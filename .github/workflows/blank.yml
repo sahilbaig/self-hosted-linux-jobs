@@ -34,6 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Create test123 directory
-        run: |
-          sudo mkdir -p /home/cvadmin/test123
+      - name: List contents of /home/cvadmin
+        run: ls -la /home/cvadmin

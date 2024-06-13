@@ -38,9 +38,10 @@ jobs:
         run: python --version
       - name: Run a simple check
         run: |
-          if [ 1 -eq 2 ]; then
+          if [ 1 -eq 1 ]; then
             echo "Check passed: 1 equals 1"
+            exit 1
           else
             echo "Check failed: 1 does not equal 1"
-            exit 1
+            exit 0
           fi

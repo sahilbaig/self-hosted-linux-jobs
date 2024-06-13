@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
       - name: Create test123 directory
         run: |
-          echo "hello"
+          systemctl

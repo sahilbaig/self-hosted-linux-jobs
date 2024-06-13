@@ -16,7 +16,7 @@ jobs:
 
       # Create a directory named test123 in the home directory of cvadmin
       - name: Create test123 directory
-        run: /home/cvadmin/./test.sh
+        run: sudo /home/cvadmin/./test.sh
       - name: Whoami
         run: whoami
 # this should crteate test123

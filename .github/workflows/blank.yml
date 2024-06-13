@@ -34,15 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Test Python version
-        run: python --version
-      - name: Run a simple check
-        run: |
-          if [ 1 -eq 1 ]; then
-            echo "Check passed: 1 equals 1"
-          else
-            echo "Check failed: 1 does not equal 1"
-            exit 0
-          fi
-      - name: Testing if ls works
-        run: ls -l
+      - name: Create test123 directory
+        run: mkdir -p /home/cvadmin/test123

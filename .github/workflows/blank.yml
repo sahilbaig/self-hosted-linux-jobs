@@ -16,5 +16,5 @@ jobs:
 
       # Echo "meow" to hello.txt
       - name: Echo to hello.txt
-        run: pwd
-        shell: bash
+      - run: pwd
+      - shell: bash

@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Test Python version
-        run: python --version
+        run: python3 --version
       - name: print working diirectory
         run: pwd

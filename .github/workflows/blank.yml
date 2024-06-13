@@ -14,10 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check user
-      - run : whoami
-
       # Create a directory named test123 in the home directory of cvadmin
       - name: Create test123 directory
         run: /home/cvadmin/./test.sh
-# adding something else too 1
+      - name: Whoami
+        run: whoami
+# adding something else

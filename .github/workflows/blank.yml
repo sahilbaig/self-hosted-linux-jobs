@@ -14,9 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Create a directory named test123 in the home directory of cvadmin
-      - name: Create test123 directory
-        run: sudo /home/cvadmin/./test.sh
-      - name: Whoami
-        run: whoami
-# this should crteate test123
+      # Echo "meow" to hello.txt
+      - name: Echo to hello.txt
+        run: echo "meow" > hello.txt
+        shell: bash

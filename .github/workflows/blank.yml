@@ -36,6 +36,4 @@ jobs:
           echo test, and deploy your project.
       - name: Create test123 directory
         run: |
-          sudo mkdir -p /home/cvadmin/test123
-          sudo mkdir -p /home/cvadmin/test123
-        shell: /usr/bin/bash -e {0}
+          echo "hello"
